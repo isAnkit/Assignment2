@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form>
+        Name <input type="text" name="name" id="Name" placeholder="name"><br><br>
+        Email Address <input type="email" name="email" id="email" placeholder="email" required><br><br>
+        Password <input type="password" name="password" id="password" placeholder="password"><br><br>
+
+        Language <br><br>
+
+        <input type="radio" name="language" id="react" value="react"> React<br>
+        <input type="radio" name="language" id="angular" value="angular"> Angular<br>
+        <input type="radio" name="language" id="vue" value="vue"> Vue
+        
+        <br><br>
+        Course
+        <br><br>
+
+        <input type="checkbox" name="course1" id="mern" value="MERN" required> MERN<br>
+        <input type="checkbox" name="course2" id="mean" value="MEAN"> MEAN<br>
+        <input type="checkbox" name="course3" id="mevn" value="MEVN"> MEVN
+
+        <br><br>
+        
+            <label for="field">Field:</label><br>
+            <select name="course" id="field">
+                <option value="frontend">Front End</option>
+                <option value="backend">Back End</option>
+                <option value="fullstack">Full Stack</option>
+            </select>
+        <br><br>
+        <textarea name="description" id="textbox" rows="10" cols="30"></textarea>
+        <br><br>
+        Phone Number <input type="number" name="phone" id="phone"> <input type="submit" formaction="./forms2.html" value="Submit"> 
+    </form>
+    <h1>TABLES</h1>
+    <a href="./tables.html">Click Here</a>
+    
+</body>
+</html>
